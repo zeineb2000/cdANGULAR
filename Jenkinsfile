@@ -7,8 +7,8 @@ pipeline
        script{
      checkout([$class: 'GitSCM', branches: [[name: '*/master']],
          userRemoteConfigs: [[
-         credentialsId: 'b728b8af-1534-449e-8abe-5ed9c7e78d1b',
-         url:'https://github.com/nadiaabdelmoula/SickOpsCD.git']]])
+        
+         url:'https://github.com/zeineb2000/cdANGULAR.git']]])
          
          }
          }
