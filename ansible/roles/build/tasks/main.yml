@@ -1,8 +1,7 @@
 ---
+#buidproject
 
-- hosts: localhost
-  gather_facts: true
-  become: true
-  roles:
-    - { role: build }
-# tasks file for build
+- name: install dep
+  shell: npm install --save --legacy-peer-deps
+- name: build app
+  shell: ng build
