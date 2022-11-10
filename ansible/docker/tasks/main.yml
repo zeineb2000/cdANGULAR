@@ -12,7 +12,7 @@
 - name: run container docker 
   docker_container:
     name: myapp_container
-    image:zeineb12345/devops:latest
+    image: zeineb12345/devops:latest
     state: started
     recreate: true
     ports:
